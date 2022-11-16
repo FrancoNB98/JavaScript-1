@@ -29,7 +29,7 @@ let salida = " "
 for (const producto of buscarProducto) {
     salida = salida + producto.nombre + "\n"
 }
-alert("Seleccione que producto desea" + salida)
+alert("Seleccione que producto desea" + "\n" + salida)
 
 
 
