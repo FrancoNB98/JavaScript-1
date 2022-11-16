@@ -27,7 +27,7 @@ let buscarProducto = productos.filter(producto => producto.categoria === (selecc
 
 let salida = " "
 for (const producto of buscarProducto) {
-    salida = salida + producto.nombre + "\n"
+    salida = salida + "Seleccione que producto desea" + "\n" + producto.nombre + "\n"
 }
 alert(salida)
 
